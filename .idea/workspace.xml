@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92a5d5b7-f28d-43fc-8f07-4b5075ac37d3" name="Changes" comment="Initial commit 2" />
+    <list default="true" id="92a5d5b7-f28d-43fc-8f07-4b5075ac37d3" name="Changes" comment="Changes src folder with PizzaShop application">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +14,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2MjfWH1JnU4SrAy7fB49a2mUfwk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -35,7 +40,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678285944540</updated>
-      <workItem from="1678285946012" duration="325000" />
+      <workItem from="1678285946012" duration="656000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit 2">
       <created>1678286249629</created>
@@ -51,7 +56,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678286261109</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changes src folder with PizzaShop application">
+      <created>1678286432565</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678286432565</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -70,6 +82,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit 2" />
+    <MESSAGE value="Changes src folder with PizzaShop application" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes src folder with PizzaShop application" />
   </component>
 </project>
