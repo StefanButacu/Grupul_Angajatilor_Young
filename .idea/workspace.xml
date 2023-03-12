@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92a5d5b7-f28d-43fc-8f07-4b5075ac37d3" name="Changes" comment="Wip Checklist&#10;Adds files in order to read menu and payments">
+    <list default="true" id="92a5d5b7-f28d-43fc-8f07-4b5075ac37d3" name="Changes" comment="Wip Checklist">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/Lab1/Lab01_ReviewReport.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab1/Lab01_ReviewReport.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/payments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/payments.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +29,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "E:/Anul3Sem2/ValidareaVerificareaSistemlorSoft/Labs/Grupul_Angajatilor_Young/src/main/resources/data",
     "nodejs_package_manager_path": "npm",
@@ -71,7 +71,7 @@
       <updated>1678285944540</updated>
       <workItem from="1678285946012" duration="978000" />
       <workItem from="1678618762694" duration="2628000" />
-      <workItem from="1678621470139" duration="1541000" />
+      <workItem from="1678621470139" duration="3526000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit 2">
       <created>1678286249629</created>
@@ -122,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678619531210</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Wip Checklist">
+      <created>1678623471387</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678623471387</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,7 +153,8 @@
     <MESSAGE value="gitignore modif" />
     <MESSAGE value="Adds class diagram, requirements, ReviewReport" />
     <MESSAGE value="Wip Checklist&#10;Adds files in order to read menu and payments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wip Checklist&#10;Adds files in order to read menu and payments" />
+    <MESSAGE value="Wip Checklist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wip Checklist" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
