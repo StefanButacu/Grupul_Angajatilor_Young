@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92a5d5b7-f28d-43fc-8f07-4b5075ac37d3" name="Changes" comment="Wip Checklist" />
+    <list default="true" id="92a5d5b7-f28d-43fc-8f07-4b5075ac37d3" name="Changes" comment="Wip Checklist">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab1/Lab01_ReviewReport.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab1/Lab01_ReviewReport.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/controller/MainGUIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/controller/MainGUIController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/controller/OrdersGUIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/controller/OrdersGUIController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/gui/KitchenGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/gui/KitchenGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/repository/MenuRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/repository/MenuRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/service/PaymentAlert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/service/PaymentAlert.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +49,8 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "actions.on.save"
+    "settings.editor.selected.configurable": "actions.on.save",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -83,6 +93,7 @@
       <workItem from="1678285946012" duration="978000" />
       <workItem from="1678618762694" duration="2628000" />
       <workItem from="1678621470139" duration="3526000" />
+      <workItem from="1678804205836" duration="531000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit 2">
       <created>1678286249629</created>

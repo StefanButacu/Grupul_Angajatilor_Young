@@ -53,7 +53,7 @@ public class OrdersGUIController {
     }
 
     public void setTotalAmount(double totalAmount) {
-        this.totalAmount = totalAmount;
+        OrdersGUIController.totalAmount = totalAmount;
     }
 
     private PizzaService service;
