@@ -7,11 +7,15 @@
     <list default="true" id="92a5d5b7-f28d-43fc-8f07-4b5075ac37d3" name="Changes" comment="Wip Checklist">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/Lab1/Lab01_ReviewReport.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab1/Lab01_ReviewReport.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/payments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/payments.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,14 +35,22 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Anul3Sem2/ValidareaVerificareaSistemlorSoft/Labs/Grupul_Angajatilor_Young/src/main/resources/data",
+    "last_opened_file_path": "C:/facultate/Semestrul6/VVSS/labs/Grupul_Angajatilor_Young/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "sonarlint"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\facultate\Semestrul6\VVSS\labs\Grupul_Angajatilor_Young\src" />
       <recent name="E:\Anul3Sem2\ValidareaVerificareaSistemlorSoft\Labs\Grupul_Angajatilor_Young\src\main\resources\data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\facultate\Semestrul6\VVSS\labs\Grupul_Angajatilor_Young\src" />
     </key>
   </component>
   <component name="RunManager">
@@ -160,14 +172,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/pizzashop/Main.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/pizzashop/repository/MenuRepository.java</url>
           <line>47</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pizzashop/controller/OrdersGUIController.java</url>
+          <line>136</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
