@@ -14,6 +14,8 @@ import pizzashop.gui.KitchenGUI;
 import pizzashop.model.PaymentType;
 import pizzashop.repository.MenuRepository;
 import pizzashop.repository.PaymentRepository;
+import pizzashop.service.MenuService;
+import pizzashop.service.PaymentService;
 import pizzashop.service.PizzaService;
 
 import java.util.Optional;
@@ -27,11 +29,13 @@ public class Main extends Application {
         PaymentRepository payRepo = new PaymentRepository();
         PizzaService service = new PizzaService(repoMenu, payRepo);
 
+        MenuService menuService = new MenuService(repoMenu);
+        PaymentService paymentService = new PaymentService(payRepo);
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/mainFXML.fxml"));
         //VBox box = loader.load();
         Parent box = loader.load();
         MainGUIController ctrl = loader.getController();
-        ctrl.setService(service);
+        ctrl.setServices(menuService, paymentService, service);
         primaryStage.setTitle("PizzeriaX");
         primaryStage.setResizable(false);
         primaryStage.setAlwaysOnTop(false);
