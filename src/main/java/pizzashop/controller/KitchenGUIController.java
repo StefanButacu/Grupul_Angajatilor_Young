@@ -11,7 +11,7 @@ import java.util.Calendar;
 
 public class KitchenGUIController {
     @FXML
-    private ListView kitchenOrdersList;
+    private ListView<String> kitchenOrdersList;
     @FXML
     public Button cook;
     @FXML
@@ -20,8 +20,7 @@ public class KitchenGUIController {
     public static ObservableList<String> order = FXCollections.observableArrayList();
     private Object selectedOrder;
     private Calendar now = Calendar.getInstance();
-    private String extractedTableNumberString = new String();
-    private int extractedTableNumberInteger;
+    private String extractedTableNumberString;
     //thread for adding data to kitchenOrderList
     public Thread addOrders = new Thread(new Runnable() {
         @Override
@@ -61,9 +60,8 @@ public class KitchenGUIController {
             selectedOrder = kitchenOrdersList.getSelectionModel().getSelectedItem();
             kitchenOrdersList.getItems().remove(selectedOrder);
             extractedTableNumberString = selectedOrder.toString().subSequence(5, 6).toString();
-            extractedTableNumberInteger = Integer.valueOf(extractedTableNumberString);
             System.out.println("--------------------------");
-            System.out.println("Table " + extractedTableNumberInteger + " ready at: " + now.get(Calendar.HOUR) + ":" + now.get(Calendar.MINUTE));
+            System.out.println("Table " + extractedTableNumberString + " ready at: " + now.get(Calendar.HOUR) + ":" + now.get(Calendar.MINUTE));
             System.out.println("--------------------------");
         });
     }
