@@ -29,13 +29,19 @@ public class PaymentService {
     }
 
     public double getTotalAmount(PaymentType type) {
-        double total = 0.0f;
-        List<Payment> l = getPayments();
-        if ((l == null) || (l.size() == 0)) return total;
-        for (Payment p : l) {
-            if (p.getType().equals(type))
-                total += p.getAmount();
+        double total = 0.0f;                                           //1
+        if (type != PaymentType.Cash && type != PaymentType.Card)      //2
+            total = 0;                                                 //3
+        else {
+            List<Payment> l = getPayments();                           //4
+            if (l.size() == 0)                                         //5
+                total = 0;                                             //6
+            else for (int i = 0; i < l.size(); i++) {                  //7 //8 //12
+                Payment p = l.get(i);                                  //9
+                if (p.getType().equals(type))                          //10
+                    total += p.getAmount();                            //11
+            }
         }
-        return total;
+        return total;                                                  //13
     }
 }
