@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92a5d5b7-f28d-43fc-8f07-4b5075ac37d3" name="Changes" comment="Wip Checklist">
+    <list default="true" id="92a5d5b7-f28d-43fc-8f07-4b5075ac37d3" name="Changes" comment="lab3 wip">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pizzashop/service/PaymentServiceTestWBT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/service/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/service/PaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab3/Lab03_WBT_TCs_Form.xls" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab3/Lab03_WBT_TCs_Form.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/repository/PaymentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/repository/PaymentRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/data/payments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/payments.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +79,7 @@
       <recent name="pizzashop.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.PaymentServiceTestWBT">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pizzashop.Main" />
       <module name="Grupul_Angajatilor_Young" />
@@ -106,8 +108,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PaymentServiceTestWBT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Grupul_Angajatilor_Young" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pizzashop.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pizzashop.service" />
+      <option name="MAIN_CLASS_NAME" value="pizzashop.service.PaymentServiceTestWBT" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PaymentServiceTestWBT" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.PaymentServiceTest" />
       </list>
@@ -130,7 +148,7 @@
       <workItem from="1680279933567" duration="10304000" />
       <workItem from="1680700253901" duration="1706000" />
       <workItem from="1680702786148" duration="632000" />
-      <workItem from="1681471902455" duration="4215000" />
+      <workItem from="1681471902455" duration="5973000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit 2">
       <created>1678286249629</created>
@@ -188,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678623471387</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="lab3 wip">
+      <created>1681477804553</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1681477804553</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +238,8 @@
     <MESSAGE value="Adds class diagram, requirements, ReviewReport" />
     <MESSAGE value="Wip Checklist&#10;Adds files in order to read menu and payments" />
     <MESSAGE value="Wip Checklist" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wip Checklist" />
+    <MESSAGE value="lab3 wip" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab3 wip" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -231,6 +257,9 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Grupul_Angajatilor_Young$PaymentServiceTestWBT.ic" NAME="PaymentServiceTestWBT Coverage Results" MODIFIED="1681480012758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>pizzashop.service.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/Grupul_Angajatilor_Young$PaymentServiceTest.ic" NAME="PaymentServiceTest Coverage Results" MODIFIED="1680702239385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>pizzashop.service.*</FILTER>
     </SUITE>
