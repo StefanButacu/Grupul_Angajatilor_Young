@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="92a5d5b7-f28d-43fc-8f07-4b5075ac37d3" name="Changes" comment="lab3 wip">
+=======
+    <list default="true" id="92a5d5b7-f28d-43fc-8f07-4b5075ac37d3" name="Changes" comment="pom-xml error">
+>>>>>>> d8cfee58a498b3898ddc9341bb67176228dc85d1
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -142,7 +146,7 @@
       <workItem from="1681491559427" duration="164000" />
       <workItem from="1682512224118" duration="406000" />
       <workItem from="1683354570862" duration="37000" />
-      <workItem from="1683390147847" duration="4354000" />
+      <workItem from="1683390147847" duration="5189000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit 2">
       <created>1678286249629</created>
@@ -200,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678623471387</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="pom-xml error">
+      <created>1683395071694</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1683395071694</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +236,8 @@
     <MESSAGE value="Adds class diagram, requirements, ReviewReport" />
     <MESSAGE value="Wip Checklist&#10;Adds files in order to read menu and payments" />
     <MESSAGE value="Wip Checklist" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wip Checklist" />
+    <MESSAGE value="pom-xml error" />
+    <option name="LAST_COMMIT_MESSAGE" value="pom-xml error" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
