@@ -9,7 +9,7 @@ import pizzashop.service.PaymentService;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class PaymentServiceTestWBT {
+class PaymentServiceWBTTest {
     private PaymentService srv;
 
     @BeforeEach
