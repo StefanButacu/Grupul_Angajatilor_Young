@@ -9,8 +9,8 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <maven.compiler.source>18</maven.compiler.source>
-        <maven.compiler.target>18</maven.compiler.target>
+        <maven.compiler.source>9</maven.compiler.source>
+        <maven.compiler.target>9</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
@@ -108,12 +108,12 @@
             <!--                <version>3.8.0</version>-->
             <!--            </plugin>-->
             <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0</version>
-
-                <configuration>
-                    <!--                <failIfNoTests>false</failIfNoTests>-->
-                </configuration>
+                <!--                <configuration>-->
+                <!--                                    <failIfNoTests>false</failIfNoTests>-->
+                <!--                </configuration>-->
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -162,8 +162,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.11.0</version>
                 <configuration>
-                    <source>${maven.compiler.source}</source> <!-- Java 18 -->
-                    <target>${maven.compiler.target}</target> <!-- Java 18 -->
+                    <source>${maven.compiler.source}</source>
+                    <target>${maven.compiler.target}</target>
 
                 </configuration>
             </plugin>
