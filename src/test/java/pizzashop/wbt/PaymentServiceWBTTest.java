@@ -1,14 +1,15 @@
-package pizzashop.service;
+package pizzashop.wbt;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import pizzashop.model.PaymentType;
 import pizzashop.repository.PaymentRepository;
+import pizzashop.service.PaymentService;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class PaymentServiceTestWBT {
+class PaymentServiceWBTTest {
     private PaymentService srv;
 
     @BeforeEach
