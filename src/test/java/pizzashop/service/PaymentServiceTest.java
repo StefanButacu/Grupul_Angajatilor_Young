@@ -22,16 +22,17 @@ class PaymentServiceTest {
     void tearDown() {
     }
 
-    @ParameterizedTest
+    //    @ParameterizedTest
+//    @ValueSource(ints = {10})
+    @Test
     @DisplayName("ECP1")
-    @ValueSource(ints = {10})
-    void addPaymentsCash(int amount) {
+    void addPaymentsCash() {
         double amountBefore = srv.getTotalAmount(PaymentType.Cash);
-        srv.addPayment(4, PaymentType.Cash, amount);
+        srv.addPayment(4, PaymentType.Cash, 10);
 
         double amountAfter = srv.getTotalAmount(PaymentType.Cash);
 
-        assertEquals(amountAfter, amountBefore + amount);
+        assertEquals(amountAfter, amountBefore + 10);
     }
 
     @RepeatedTest(value = 2)
